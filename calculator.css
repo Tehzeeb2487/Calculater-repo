@@ -6,6 +6,7 @@
 	font-weight: bold;
 }
 body{
+	overflow-y: hidden;
 	background-image: url(winter-min.jpeg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -83,4 +84,5 @@ body{
 		height: 55px;
 	}
 }
+
 
