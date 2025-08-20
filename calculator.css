@@ -63,3 +63,24 @@ body{
 .equal:hover{
 	border: 2px solid black;
 }
+
+@media (max-width: 330px) {
+	.calculator {
+		width: 95%;
+		padding: 10px;
+	}
+
+	.forin {
+		width: 280px;
+	}
+
+	.operator {
+		font-size: 16px;
+	}
+
+	.bt1 {
+		width: 55px;
+		height: 55px;
+	}
+}
+
