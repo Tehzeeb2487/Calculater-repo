@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Calculator</title>
-		<link rel="stylesheet" href="calculator.css">
-	</head>
-	<body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="winter-min.jpeg" />
+	<title>Calculator</title>
+	<link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+	
 		<div class="calculator">
 			<input type="text" name="" id="inn" class="forin" placeholder="0" readonly>
 			<div class="btn">
@@ -32,6 +34,10 @@
 				<button class="bt1 operator equal" onclick="calculate()">=</button>
 			</div>
 		</div>
+	
+		<div class="footer">
+        	<p>Copyright © TEHZEEB JAHAN 2024. All rights reserved.</p>
+    	</div>
 		<script>
 			let input = document.getElementById('inn');
 			function showOnDisplay(values) {
@@ -55,4 +61,3 @@
 		</script>
 	</body>
 </html>
-
